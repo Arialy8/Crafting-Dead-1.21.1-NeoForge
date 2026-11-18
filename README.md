@@ -16,10 +16,9 @@ This repository contains only the main source directory `src/main`:
 
 ---
 
-## 网站与视频 / Website & Video
+## 介绍视频 / Video
 
-- 官方网站 / Official website：https://craftingdead.cc.cd/
-- 介绍视频 / Introduction video（哔哩哔哩 Bilibili）：https://www.bilibili.com/video/BV1e8HL6WENX/?spm_id_from=333.1387.homepage.video_card.click
+- 哔哩哔哩（Bilibili）：https://www.bilibili.com/video/BV1e8HL6WENX/?spm_id_from=333.1387.homepage.video_card.click
 
 ---
 
@@ -51,6 +50,66 @@ This repository contains only the main source directory `src/main`:
 
 客户端与服务端需使用相同版本模组，请勿混用不同版本。
 Client and server must use the same mod version; do not mix versions.
+
+---
+
+## 指令介绍 / Commands
+
+### 生存规则 / Survival rules
+
+| 指令 / Command | 说明 / Description |
+|---|---|
+| `/hydrate [玩家]` | 恢复自己或指定玩家的口渴值 / Restore thirst of yourself or a player |
+| `/craftingdead explosion terrain [true/false]` | 查看或设置爆炸是否破坏地形 / View or set whether explosions break terrain |
+| `/craftingdead zombies natural [true/false]` | 查看或设置特殊僵尸自然生成 / View or set natural spawning of special zombies |
+| `/craftingdead zombies rate [0-100]` | 查看或设置特殊僵尸生成率 / View or set special zombie spawn rate |
+| `/craftingdead zombies rare [true/false]` | 查看或设置稀有职业僵尸 / View or set rare professional zombies |
+| `/craftingdead horde enabled [true/false]` | 查看或设置夜间尸潮 / View or set night hordes |
+| `/craftingdead horde chance [0-100]` | 查看或设置尸潮触发概率 / View or set horde trigger chance |
+
+### 空投 / Airdrops
+
+| 指令 / Command | 说明 / Description |
+|---|---|
+| `/craftingdead supplydrop medical <1-5>` | 在玩家周围生成医疗空投 / Spawn medical airdrops around the player |
+| `/craftingdead supplydrop military <1-5>` | 在玩家周围生成军用空投 / Spawn military airdrops around the player |
+| `/craftingdead supplydrop auto here / pos <x> <y> <z>` | 设置自动空投中心 / Set the automatic airdrop center |
+| `/craftingdead supplydrop auto type medical/military` | 设置空投类型 / Set airdrop type |
+| `/craftingdead supplydrop auto count <1-5>` | 设置每轮数量 / Set drops per round |
+| `/craftingdead supplydrop auto interval <1-12000>` | 设置间隔（游戏刻）/ Set interval (ticks) |
+| `/craftingdead supplydrop auto enabled true/false` | 启动或停止自动空投 / Start or stop automatic airdrops |
+| `/craftingdead supplydrop auto status / delete` | 查看状态或删除设置 / View status or delete settings |
+
+### 战利品生成器 / Loot generators
+
+| 指令 / Command | 说明 / Description |
+|---|---|
+| `/craftingdead generator pos1 / pos2` | 设置区域两个角点 / Set the two area corners |
+| `/craftingdead generator confirm <区域名>` | 确认区域并生成战利品生成器 / Confirm area and spawn generators |
+| `/craftingdead generator delete <区域名>` | 删除区域、生成器及战利品 / Delete area, generators and loot |
+| `/craftingdead generator list` | 列出所有已保存区域 / List all saved areas |
+
+### 小队 / Squads
+
+| 指令 / Command | 说明 / Description |
+|---|---|
+| `/team create <名称>` | 创建小队 / Create a squad |
+| `/team invite <玩家>` | 邀请玩家 / Invite a player |
+| `/team accept / decline` | 接受或拒绝邀请 / Accept or decline an invite |
+| `/team kick <玩家>` | 踢出成员 / Kick a member |
+| `/team leave` | 退出或解散小队 / Leave or disband the squad |
+
+### 基地 / Bases
+
+| 指令 / Command | 说明 / Description |
+|---|---|
+| `/base add <玩家>` | 添加基地成员 / Add a base member |
+| `/base remove <玩家>` | 移除基地成员 / Remove a base member |
+| `/base grant <玩家> <权限>` | 授予基地权限 / Grant a base permission |
+| `/base revoke <玩家> <权限>` | 撤销基地权限 / Revoke a base permission |
+| `/base list` | 查看基地授权列表 / View base permissions |
+
+权限包括 `build`、`break`、`container`、`craft`。/ Permissions include `build`, `break`, `container`, `craft`.
 
 ---
 
