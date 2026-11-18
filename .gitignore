@@ -1,0 +1,26 @@
+# ── Gradle / build ─────────────────────────────────────────────
+.gradle/
+build/
+out/
+*.class
+
+# ── IDE ────────────────────────────────────────────────────────
+.idea/
+*.iml
+*.ipr
+*.iws
+.settings/
+.classpath
+.project
+bin/
+*.launch
+
+# ── Game runtime / logs ────────────────────────────────────────
+run/
+logs/
+*.log
+
+# ── OS ─────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
