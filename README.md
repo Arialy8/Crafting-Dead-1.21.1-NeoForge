@@ -19,6 +19,7 @@ This repository contains only the main source directory `src/main`:
 ## 介绍视频 / Video
 
 - 哔哩哔哩（Bilibili）：https://www.bilibili.com/video/BV1e8HL6WENX/?spm_id_from=333.1387.homepage.video_card.click
+- 详细指令网站 / Detailed command reference：https://craftingdead.cc.cd/
 
 ---
 
