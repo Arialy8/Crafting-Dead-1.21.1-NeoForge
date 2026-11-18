@@ -116,9 +116,10 @@ Client and server must use the same mod version; do not mix versions.
 
 ## 联系与反馈 / Contact
 
-遇到问题或有建议，请通过邮箱联系 / For bugs or suggestions, contact via email:
+遇到问题或有建议，可通过邮箱或 QQ 群联系 / For bugs or suggestions, contact via email or QQ group:
 
-- **2078195736@qq.com**
+- 邮箱 / Email：**2078195736@qq.com**
+- QQ 群聊 / QQ group：**947796302**
 
 反馈时建议附上 `latest.log`、`debug.log` 或崩溃报告与复现步骤。
 When reporting an issue, please include `latest.log`, `debug.log` or a crash report, along with steps to reproduce.
