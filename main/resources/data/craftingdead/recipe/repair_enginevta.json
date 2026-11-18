@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["SSS", "SDS", " W "],
+  "key": {
+    "S": { "type": "craftingdead:stacked", "item": "craftingdead:scrap_metal", "count": 64 },
+    "D": { "item": "craftingdead:damaged_enginevta", "id": "craftingdead:damaged_enginevta" },
+    "W": { "item": "craftingdead:iron_wrench", "id": "craftingdead:iron_wrench" }
+  },
+  "result": { "item": "craftingdead:enginevta", "id": "craftingdead:enginevta", "count": 1 }
+}

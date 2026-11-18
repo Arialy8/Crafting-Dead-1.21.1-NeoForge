@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " I ",
+    "GFG",
+    " I "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot",
+      "id": "minecraft:iron_ingot"
+    },
+    "G": {
+      "item": "minecraft:gunpowder",
+      "id": "minecraft:gunpowder"
+    },
+    "F": {
+      "item": "minecraft:fire_charge",
+      "id": "minecraft:fire_charge"
+    }
+  },
+  "result": {
+    "item": "craftingdead:rocket",
+    "id": "craftingdead:rocket",
+    "count": 1
+  }
+}

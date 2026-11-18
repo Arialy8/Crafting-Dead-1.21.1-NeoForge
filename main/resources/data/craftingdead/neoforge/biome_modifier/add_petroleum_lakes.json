@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "craftingdead:lake_petroleum_surface",
+    "craftingdead:lake_petroleum_underground"
+  ],
+  "step": "lakes"
+}

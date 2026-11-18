@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " I ",
+    "IGI",
+    " M "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot",
+      "id": "minecraft:iron_ingot"
+    },
+    "G": {
+      "item": "minecraft:gunpowder",
+      "id": "minecraft:gunpowder"
+    },
+    "M": {
+      "item": "minecraft:redstone",
+      "id": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "craftingdead:stanag_20_round_magazine",
+    "id": "craftingdead:stanag_20_round_magazine",
+    "count": 1
+  }
+}

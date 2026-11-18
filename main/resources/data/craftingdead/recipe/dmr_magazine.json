@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " I ",
+    "IGI",
+    " M "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot",
+      "id": "minecraft:iron_ingot"
+    },
+    "G": {
+      "item": "minecraft:gunpowder",
+      "id": "minecraft:gunpowder"
+    },
+    "M": {
+      "item": "minecraft:diamond",
+      "id": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "craftingdead:dmr_magazine",
+    "id": "craftingdead:dmr_magazine",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["SSS", "NLN", "SSS"],
+  "key": {
+    "S": { "type": "craftingdead:stacked", "item": "craftingdead:scrap_metal", "count": 64 },
+    "N": { "item": "minecraft:netherite_ingot", "id": "minecraft:netherite_ingot" },
+    "L": { "item": "minecraft:lava_bucket", "id": "minecraft:lava_bucket" }
+  },
+  "result": { "item": "craftingdead:enginevta", "id": "craftingdead:enginevta", "count": 1 }
+}

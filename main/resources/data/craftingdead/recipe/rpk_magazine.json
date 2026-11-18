@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    "GMG",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot",
+      "id": "minecraft:iron_ingot"
+    },
+    "G": {
+      "item": "minecraft:gunpowder",
+      "id": "minecraft:gunpowder"
+    },
+    "M": {
+      "item": "minecraft:crying_obsidian",
+      "id": "minecraft:crying_obsidian"
+    }
+  },
+  "result": {
+    "item": "craftingdead:rpk_magazine",
+    "id": "craftingdead:rpk_magazine",
+    "count": 1
+  }
+}

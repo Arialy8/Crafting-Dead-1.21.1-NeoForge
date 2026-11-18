@@ -1,0 +1,27 @@
+{
+    "type":  "minecraft:crafting_shapeless",
+    "ingredients":  [
+                        {
+                            "item":  "craftingdeadsurvival:canned_beans",
+                            "id":  "craftingdeadsurvival:canned_beans"
+                        },
+                        [
+                            {
+                                "item":  "craftingdeadsurvival:can_opener",
+                                "id":  "craftingdeadsurvival:can_opener"
+                            },
+                            {
+                                "item":  "craftingdeadsurvival:screwdriver",
+                                "id":  "craftingdeadsurvival:screwdriver"
+                            },
+                            {
+                                "item":  "craftingdeadsurvival:multi_tool",
+                                "id":  "craftingdeadsurvival:multi_tool"
+                            }
+                        ]
+                    ],
+    "result":  {
+                   "item":  "craftingdeadsurvival:open_canned_beans",
+                   "id":  "craftingdeadsurvival:open_canned_beans"
+               }
+}

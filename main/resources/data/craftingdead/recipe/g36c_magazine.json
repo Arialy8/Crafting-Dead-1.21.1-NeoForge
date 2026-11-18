@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " I ",
+    "IGI",
+    " M "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot",
+      "id": "minecraft:iron_ingot"
+    },
+    "G": {
+      "item": "minecraft:gunpowder",
+      "id": "minecraft:gunpowder"
+    },
+    "M": {
+      "item": "minecraft:charcoal",
+      "id": "minecraft:charcoal"
+    }
+  },
+  "result": {
+    "item": "craftingdead:g36c_magazine",
+    "id": "craftingdead:g36c_magazine",
+    "count": 1
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " I ",
+    "IGI",
+    " M "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot",
+      "id": "minecraft:iron_ingot"
+    },
+    "G": {
+      "item": "minecraft:gunpowder",
+      "id": "minecraft:gunpowder"
+    },
+    "M": {
+      "item": "minecraft:prismarine_crystals",
+      "id": "minecraft:prismarine_crystals"
+    }
+  },
+  "result": {
+    "item": "craftingdead:g18_magazine",
+    "id": "craftingdead:g18_magazine",
+    "count": 1
+  }
+}

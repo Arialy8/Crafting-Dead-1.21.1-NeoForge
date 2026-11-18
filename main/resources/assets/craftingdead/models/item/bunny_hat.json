@@ -1,0 +1,18 @@
+﻿{
+    "parent":  "neoforge:item/default",
+    "loader":  "neoforge:separate_transforms",
+    "base":  {
+                 "parent":  "item/generated",
+                 "textures":  {
+                                  "layer0":  "craftingdead:item/bunny_hat"
+                              }
+             },
+    "perspectives":  {
+                         "none":  {
+                                      "parent":  "craftingdead:hats/bunny_hat",
+                                      "textures":  {
+                                                       "base":  "craftingdead:hats/bunny_hat"
+                                                   }
+                                  }
+                     }
+}

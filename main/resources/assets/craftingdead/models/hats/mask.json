@@ -1,0 +1,6 @@
+﻿{
+    "loader":  "neoforge:obj",
+    "model":  "craftingdead:models/hats/mask.obj",
+    "flip-v":  true,
+    "ambientToFullbright":  false
+}

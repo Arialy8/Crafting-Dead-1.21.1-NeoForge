@@ -1,0 +1,26 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "pattern":  [
+                    "iti",
+                    "ifi",
+                    "iii"
+                ],
+    "key":  {
+                "t":  {
+                          "item":  "minecraft:redstone_torch",
+                          "id":  "minecraft:redstone_torch"
+                      },
+                "i":  {
+                          "item":  "minecraft:emerald",
+                          "id":  "minecraft:emerald"
+                      },
+                "f":  {
+                          "item":  "craftingdead:first_aid_kit",
+                          "id":  "craftingdead:first_aid_kit"
+                      }
+            },
+    "result":  {
+                   "item":  "craftingdeadsurvival:medical_drop_radio",
+                   "id":  "craftingdeadsurvival:medical_drop_radio"
+               }
+}

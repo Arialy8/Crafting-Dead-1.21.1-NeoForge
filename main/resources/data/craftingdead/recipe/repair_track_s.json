@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["SSS", " D ", " W "],
+  "key": {
+    "S": { "type": "craftingdead:stacked", "item": "craftingdead:scrap_metal", "count": 64 },
+    "D": { "item": "craftingdead:damaged_track_s", "id": "craftingdead:damaged_track_s" },
+    "W": { "item": "craftingdead:iron_wrench", "id": "craftingdead:iron_wrench" }
+  },
+  "result": { "item": "craftingdead:track_s", "id": "craftingdead:track_s", "count": 1 }
+}

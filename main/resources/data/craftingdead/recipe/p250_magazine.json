@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " I ",
+    "IGI",
+    " M "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot",
+      "id": "minecraft:iron_ingot"
+    },
+    "G": {
+      "item": "minecraft:gunpowder",
+      "id": "minecraft:gunpowder"
+    },
+    "M": {
+      "item": "minecraft:slime_ball",
+      "id": "minecraft:slime_ball"
+    }
+  },
+  "result": {
+    "item": "craftingdead:p250_magazine",
+    "id": "craftingdead:p250_magazine",
+    "count": 1
+  }
+}

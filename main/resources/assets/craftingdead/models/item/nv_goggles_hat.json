@@ -1,0 +1,18 @@
+﻿{
+    "parent":  "neoforge:item/default",
+    "loader":  "neoforge:separate_transforms",
+    "base":  {
+                 "parent":  "item/generated",
+                 "textures":  {
+                                  "layer0":  "craftingdead:item/nv_goggles_hat"
+                              }
+             },
+    "perspectives":  {
+                         "none":  {
+                                      "parent":  "craftingdead:hats/nv_goggles_hat",
+                                      "textures":  {
+                                                       "base":  "craftingdead:hats/nv_goggles_hat"
+                                                   }
+                                  }
+                     }
+}

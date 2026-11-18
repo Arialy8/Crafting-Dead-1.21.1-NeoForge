@@ -1,0 +1,18 @@
+﻿{
+    "parent":  "neoforge:item/default",
+    "loader":  "neoforge:separate_transforms",
+    "base":  {
+                 "parent":  "item/generated",
+                 "textures":  {
+                                  "layer0":  "craftingdead:item/ghillie_hat"
+                              }
+             },
+    "perspectives":  {
+                         "none":  {
+                                      "parent":  "craftingdead:hats/textured_helmet_multiple_of_9",
+                                      "textures":  {
+                                                       "base":  "craftingdead:hats/ghillie_hat"
+                                                   }
+                                  }
+                     }
+}

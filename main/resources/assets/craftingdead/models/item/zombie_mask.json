@@ -1,0 +1,18 @@
+﻿{
+    "parent":  "neoforge:item/default",
+    "loader":  "neoforge:separate_transforms",
+    "base":  {
+                 "parent":  "item/generated",
+                 "textures":  {
+                                  "layer0":  "craftingdead:item/zombie_mask"
+                              }
+             },
+    "perspectives":  {
+                         "none":  {
+                                      "parent":  "craftingdead:hats/mask",
+                                      "textures":  {
+                                                       "base":  "craftingdead:hats/zombie_mask"
+                                                   }
+                                  }
+                     }
+}

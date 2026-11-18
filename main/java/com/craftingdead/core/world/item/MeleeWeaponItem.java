@@ -1,0 +1,63 @@
+/*
+ * Crafting Dead
+ * Copyright (C) 2022  NexusNode LTD
+ *
+ * This Non-Commercial Software License Agreement (the "Agreement") is made between
+ * you (the "Licensee") and NEXUSNODE (BRAD HUNTER). (the "Licensor").
+ * By installing or otherwise using Crafting Dead (the "Software"), you agree to be
+ * bound by the terms and conditions of this Agreement as may be revised from time
+ * to time at Licensor's sole discretion.
+ *
+ * If you do not agree to the terms and conditions of this Agreement do not download,
+ * copy, reproduce or otherwise use any of the source code available online at any time.
+ *
+ * https://github.com/nexusnode/crafting-dead/blob/1.18.x/LICENSE.txt
+ *
+ * https://craftingdead.net/terms.php
+ */
+
+package com.craftingdead.core.world.item;
+
+import java.util.List;
+import net.minecraft.ChatFormatting;
+import net.minecraft.network.chat.Component;
+
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.Item.TooltipContext;
+import net.minecraft.world.level.Level;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+import com.craftingdead.core.world.item.combatslot.CombatSlot;
+import com.craftingdead.core.world.item.combatslot.CombatSlotProvider;
+import com.craftingdead.core.world.item.equipment.Equipment;
+import com.craftingdead.core.world.item.attribute.ModItemAttributeUtil;
+import net.minecraft.core.Direction;
+import net.minecraft.nbt.CompoundTag;
+import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+
+
+public class MeleeWeaponItem extends ToolItem {
+
+  private final int attackDamage;
+
+  public MeleeWeaponItem(int attackDamage, double attackSpeed, Item.Properties properties) {
+    super(properties.attributes(ModItemAttributeUtil.mainHandWeapon(attackDamage, attackSpeed)));
+    this.attackDamage = attackDamage;
+  }
+
+    public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltip,
+      @NotNull TooltipFlag flag) {
+    tooltip.add(Component.translatable("item.craftingdead.damage").append(" ").append(
+            Component.literal(String.valueOf(this.attackDamage))
+                .withStyle(style -> style.withColor(ChatFormatting.RED)))
+        .withStyle(style -> style.withColor(ChatFormatting.GRAY)));
+
+    tooltip.add(Component.translatable("item.craftingdead.durability").append(" ").append(
+            Component.literal(String.valueOf(stack.getMaxDamage() - stack.getDamageValue()))
+                .withStyle(style -> style.withColor(ChatFormatting.RED)))
+        .withStyle(style -> style.withColor(ChatFormatting.GRAY)));
+  }
+
+}

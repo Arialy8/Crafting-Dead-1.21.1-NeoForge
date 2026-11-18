@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [" S ", "SSS", "SSS"],
+  "key": {
+    "S": { "type": "craftingdead:stacked", "item": "craftingdead:scrap_metal", "count": 64 }
+  },
+  "result": { "item": "craftingdead:t_72b3_turret", "id": "craftingdead:t_72b3_turret", "count": 1 }
+}

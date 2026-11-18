@@ -1,0 +1,80 @@
+/*
+ * Crafting Dead
+ * Copyright (C) 2022  NexusNode LTD
+ *
+ * This Non-Commercial Software License Agreement (the "Agreement") is made between
+ * you (the "Licensee") and NEXUSNODE (BRAD HUNTER). (the "Licensor").
+ * By installing or otherwise using Crafting Dead (the "Software"), you agree to be
+ * bound by the terms and conditions of this Agreement as may be revised from time
+ * to time at Licensor's sole discretion.
+ *
+ * If you do not agree to the terms and conditions of this Agreement do not download,
+ * copy, reproduce or otherwise use any of the source code available online at any time.
+ *
+ * https://github.com/nexusnode/crafting-dead/blob/1.18.x/LICENSE.txt
+ *
+ * https://craftingdead.net/terms.php
+ */
+
+package com.craftingdead.core.world.effect;
+
+import com.craftingdead.core.ServerConfig;
+import com.craftingdead.core.CraftingDead;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.ai.attributes.AttributeModifier;
+import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.effect.MobEffect;
+import net.minecraft.world.effect.MobEffectCategory;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
+
+public class AdrenalineMobEffect extends MobEffect {
+
+  protected AdrenalineMobEffect() {
+    super(MobEffectCategory.BENEFICIAL, 0xFFD000);
+    this.addAttributeModifier(Attributes.MOVEMENT_SPEED,
+        ResourceLocation.fromNamespaceAndPath(CraftingDead.ID, "adrenaline_movement_speed"),
+        0.2D, AttributeModifier.Operation.ADD_MULTIPLIED_TOTAL);
+  }
+
+  @Override
+  public boolean applyEffectTick(LivingEntity livingEntity, int amplifier) {
+    // Reduce slowness effects based on configuration
+    var slownessEffect = livingEntity.getEffect(MobEffects.MOVEMENT_SLOWDOWN);
+    if (slownessEffect != null) {
+      float reductionFactor = ServerConfig.instance.adrenalineSlowReductionFactor.get().floatValue();
+      if (reductionFactor > 0) {
+        // Reduce the duration of slowness effect
+        int newDuration = Math.max(1, (int) (slownessEffect.getDuration() * (1.0f - reductionFactor)));
+        livingEntity.removeEffect(MobEffects.MOVEMENT_SLOWDOWN);
+        if (newDuration > 1) {
+          livingEntity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 
+              newDuration, slownessEffect.getAmplifier()));
+        }
+      }
+    }
+    return true;
+  }
+
+  @Override
+  public boolean shouldApplyEffectTickThisTick(int duration, int amplifier) {
+    // Apply slowness reduction every 20 ticks (1 second)
+    return duration % 20 == 0;
+  }
+
+  @Override
+  public void onEffectStarted(LivingEntity livingEntity, int amplifier) {
+    super.onEffectStarted(livingEntity, amplifier);
+    livingEntity
+        .setAbsorptionAmount(livingEntity.getAbsorptionAmount() + (float) (4 * (amplifier + 1)));
+  }
+
+  @Override
+  public void onMobRemoved(LivingEntity livingEntity, int amplifier, Entity.RemovalReason reason) {
+    super.onMobRemoved(livingEntity, amplifier, reason);
+    livingEntity
+        .setAbsorptionAmount(Math.max(0.0F, livingEntity.getAbsorptionAmount() - (float) (4 * (amplifier + 1))));
+  }
+}

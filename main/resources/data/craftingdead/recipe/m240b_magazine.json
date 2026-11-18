@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    "GMG",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot",
+      "id": "minecraft:iron_ingot"
+    },
+    "G": {
+      "item": "minecraft:gunpowder",
+      "id": "minecraft:gunpowder"
+    },
+    "M": {
+      "item": "minecraft:obsidian",
+      "id": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "craftingdead:m240b_magazine",
+    "id": "craftingdead:m240b_magazine",
+    "count": 1
+  }
+}

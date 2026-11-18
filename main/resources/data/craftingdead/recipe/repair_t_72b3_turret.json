@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["SSS", "SDS", "SWS"],
+  "key": {
+    "S": { "type": "craftingdead:stacked", "item": "craftingdead:scrap_metal", "count": 64 },
+    "D": { "item": "craftingdead:damaged_t_72b3_turret", "id": "craftingdead:damaged_t_72b3_turret" },
+    "W": { "item": "craftingdead:iron_wrench", "id": "craftingdead:iron_wrench" }
+  },
+  "result": { "item": "craftingdead:t_72b3_turret", "id": "craftingdead:t_72b3_turret", "count": 1 }
+}

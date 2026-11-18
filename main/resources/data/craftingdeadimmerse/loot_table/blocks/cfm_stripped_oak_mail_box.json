@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "craftingdeadimmerse:cfm_stripped_oak_mail_box"
+        }
+      ]
+    }
+  ]
+}

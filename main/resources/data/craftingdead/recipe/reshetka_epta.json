@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["SSS", "III", "SSS"],
+  "key": {
+    "S": { "type": "craftingdead:stacked", "item": "craftingdead:scrap_metal", "count": 64 },
+    "I": { "item": "minecraft:iron_block", "id": "minecraft:iron_block" }
+  },
+  "result": { "item": "craftingdead:reshetka_epta", "id": "craftingdead:reshetka_epta", "count": 1 }
+}

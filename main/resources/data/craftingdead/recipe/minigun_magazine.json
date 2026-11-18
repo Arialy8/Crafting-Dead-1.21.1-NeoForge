@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    "GMG",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot",
+      "id": "minecraft:iron_ingot"
+    },
+    "G": {
+      "item": "minecraft:gunpowder",
+      "id": "minecraft:gunpowder"
+    },
+    "M": {
+      "item": "minecraft:echo_shard",
+      "id": "minecraft:echo_shard"
+    }
+  },
+  "result": {
+    "item": "craftingdead:minigun_magazine",
+    "id": "craftingdead:minigun_magazine",
+    "count": 1
+  }
+}

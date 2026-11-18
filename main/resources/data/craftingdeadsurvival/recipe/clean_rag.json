@@ -1,0 +1,18 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "pattern":  [
+                    "sss",
+                    "sss",
+                    "sss"
+                ],
+    "key":  {
+                "s":  {
+                          "item":  "minecraft:string",
+                          "id":  "minecraft:string"
+                      }
+            },
+    "result":  {
+                   "item":  "craftingdead:clean_rag",
+                   "id":  "craftingdead:clean_rag"
+               }
+}

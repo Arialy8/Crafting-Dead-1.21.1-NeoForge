@@ -1,0 +1,18 @@
+﻿{
+    "parent":  "neoforge:item/default",
+    "loader":  "neoforge:separate_transforms",
+    "base":  {
+                 "parent":  "item/generated",
+                 "textures":  {
+                                  "layer0":  "craftingdead:item/blue_hard_hat"
+                              }
+             },
+    "perspectives":  {
+                         "none":  {
+                                      "parent":  "craftingdead:hats/hard_hat",
+                                      "textures":  {
+                                                       "base":  "craftingdead:hats/blue_hard_hat"
+                                                   }
+                                  }
+                     }
+}

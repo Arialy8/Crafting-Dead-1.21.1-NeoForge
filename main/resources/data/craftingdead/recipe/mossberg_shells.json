@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:copper_ingot",
+      "id": "minecraft:copper_ingot"
+    },
+    {
+      "item": "minecraft:gunpowder",
+      "id": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:paper",
+      "id": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "id": "minecraft:gold_ingot"
+    }
+  ],
+  "result": {
+    "item": "craftingdead:mossberg_shells",
+    "id": "craftingdead:mossberg_shells",
+    "count": 1
+  }
+}

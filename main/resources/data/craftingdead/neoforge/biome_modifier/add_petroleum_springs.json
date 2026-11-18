@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "craftingdead:spring_petroleum",
+  "step": "fluid_springs"
+}

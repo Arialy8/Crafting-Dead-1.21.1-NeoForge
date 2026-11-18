@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {"type": "minecraft:item", "name": "craftingdead:bandage", "functions": [{"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 2, "max": 3}}]}
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {"type": "minecraft:item", "name": "craftingdeadsurvival:water_bottle"},
+        {"type": "minecraft:item", "name": "craftingdeadsurvival:power_bar"},
+        {"type": "minecraft:item", "name": "craftingdeadsurvival:candy_bar"},
+        {"type": "minecraft:item", "name": "craftingdeadsurvival:open_canned_beans"},
+        {"type": "minecraft:item", "name": "craftingdeadsurvival:blueberry", "functions": [{"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 1, "max": 2}}]}
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {"type": "minecraft:item", "name": "craftingdead:m1911", "weight": 3},
+        {"type": "minecraft:item", "name": "craftingdead:g18", "weight": 3},
+        {"type": "minecraft:item", "name": "craftingdead:m9", "weight": 3},
+        {"type": "minecraft:item", "name": "craftingdead:p250", "weight": 3},
+        {"type": "minecraft:item", "name": "craftingdead:sporter22", "weight": 1},
+        {"type": "minecraft:item", "name": "craftingdead:m1911_magazine", "weight": 2},
+        {"type": "minecraft:item", "name": "craftingdead:g18_magazine", "weight": 2},
+        {"type": "minecraft:item", "name": "craftingdead:m9_magazine", "weight": 2},
+        {"type": "minecraft:item", "name": "craftingdead:p250_magazine", "weight": 2},
+        {"type": "minecraft:item", "name": "craftingdead:sporter22_magazine", "weight": 1}
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {"type": "minecraft:item", "name": "craftingdead:combat_knife", "weight": 2},
+        {"type": "minecraft:item", "name": "craftingdead:crowbar", "weight": 2},
+        {"type": "minecraft:item", "name": "craftingdead:bat", "weight": 2},
+        {"type": "minecraft:item", "name": "craftingdeadsurvival:can_opener", "weight": 1},
+        {"type": "minecraft:item", "name": "craftingdeadsurvival:rope", "weight": 1},
+        {"type": "minecraft:item", "name": "craftingdead:parachute", "weight": 1}
+      ]
+    }
+  ]
+}

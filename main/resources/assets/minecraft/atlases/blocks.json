@@ -1,0 +1,49 @@
+{
+  "sources": [
+    {
+      "type": "directory",
+      "source": "gun",
+      "prefix": "gun/"
+    },
+    {
+      "type": "directory",
+      "source": "attachment",
+      "prefix": "attachment/"
+    },
+    {
+      "type": "directory",
+      "source": "magazine",
+      "prefix": "magazine/"
+    },
+    {
+      "type": "directory",
+      "source": "backpack",
+      "prefix": "backpack/"
+    },
+    {
+      "type": "directory",
+      "source": "hats",
+      "prefix": "hats/"
+    },
+    {
+      "type": "directory",
+      "source": "vest",
+      "prefix": "vest/"
+    },
+    {
+      "type": "directory",
+      "source": "clothing",
+      "prefix": "clothing/"
+    },
+    {
+      "type": "directory",
+      "source": "scope",
+      "prefix": "scope/"
+    },
+    {
+      "type": "directory",
+      "source": "flash",
+      "prefix": "flash/"
+    }
+  ]
+}

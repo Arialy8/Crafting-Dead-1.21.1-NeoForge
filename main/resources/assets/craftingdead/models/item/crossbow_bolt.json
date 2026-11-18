@@ -1,0 +1,340 @@
+{
+  "loader": "neoforge:separate_transforms",
+  "textures": { "particle": "craftingdead:item/crossbow_bolt" },
+  "base": {
+    "parent": "minecraft:block/block",
+    "textures": {
+      "shaft": "minecraft:block/spruce_planks",
+      "tip": "minecraft:block/iron_block",
+      "feather": "minecraft:block/white_wool",
+      "particle": "craftingdead:item/crossbow_bolt"
+    },
+    "elements": [
+      {
+        "from": [
+          7.6,
+          7.6,
+          -3
+        ],
+        "to": [
+          8.4,
+          8.4,
+          20
+        ],
+        "faces": {
+          "north": {
+            "texture": "#shaft",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "east": {
+            "texture": "#shaft",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#shaft",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "west": {
+            "texture": "#shaft",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "up": {
+            "texture": "#shaft",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "down": {
+            "texture": "#shaft",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "from": [
+          7.2,
+          7.2,
+          -5
+        ],
+        "to": [
+          8.8,
+          8.8,
+          -3
+        ],
+        "faces": {
+          "north": {
+            "texture": "#tip",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "east": {
+            "texture": "#tip",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#tip",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "west": {
+            "texture": "#tip",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "up": {
+            "texture": "#tip",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "down": {
+            "texture": "#tip",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "from": [
+          6.5,
+          7.9,
+          16
+        ],
+        "to": [
+          9.5,
+          8.1,
+          20
+        ],
+        "faces": {
+          "north": {
+            "texture": "#feather",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "east": {
+            "texture": "#feather",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#feather",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "west": {
+            "texture": "#feather",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "up": {
+            "texture": "#feather",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "down": {
+            "texture": "#feather",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "from": [
+          7.9,
+          6.5,
+          16
+        ],
+        "to": [
+          8.1,
+          9.5,
+          20
+        ],
+        "faces": {
+          "north": {
+            "texture": "#feather",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "east": {
+            "texture": "#feather",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "south": {
+            "texture": "#feather",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "west": {
+            "texture": "#feather",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "up": {
+            "texture": "#feather",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          },
+          "down": {
+            "texture": "#feather",
+            "uv": [
+              0,
+              0,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ],
+    "display": {
+      "gui": {
+        "rotation": [
+          30,
+          135,
+          0
+        ],
+        "scale": [
+          0.6,
+          0.6,
+          0.6
+        ]
+      },
+      "firstperson_righthand": {
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          0.7,
+          0.7,
+          0.7
+        ]
+      },
+      "thirdperson_righthand": {
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "ground": {
+        "scale": [
+          0.4,
+          0.4,
+          0.4
+        ]
+      }
+    }
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "minecraft:item/generated",
+      "textures": {
+        "layer0": "craftingdead:item/crossbow_bolt"
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["PPP", "P P", "PPP"],
+  "key": {
+    "P": { "item": "craftingdead:petroleum_bucket", "id": "craftingdead:petroleum_bucket" }
+  },
+  "result": { "item": "craftingdead:diesel_can", "id": "craftingdead:diesel_can", "count": 1 }
+}

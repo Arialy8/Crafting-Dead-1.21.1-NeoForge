@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "craftingdeadimmerse:block/wood_block",
+    "top": "craftingdeadimmerse:block/wood_block",
+    "side": "craftingdeadimmerse:block/wood_block"
+  }
+}

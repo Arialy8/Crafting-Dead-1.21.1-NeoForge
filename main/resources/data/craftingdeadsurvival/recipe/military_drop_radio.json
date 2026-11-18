@@ -1,0 +1,26 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "pattern":  [
+                    "iti",
+                    "igi",
+                    "iii"
+                ],
+    "key":  {
+                "t":  {
+                          "item":  "minecraft:redstone_torch",
+                          "id":  "minecraft:redstone_torch"
+                      },
+                "i":  {
+                          "item":  "minecraft:iron_block",
+                          "id":  "minecraft:iron_block"
+                      },
+                "g":  {
+                          "item":  "minecraft:diamond",
+                          "id":  "minecraft:diamond"
+                      }
+            },
+    "result":  {
+                   "item":  "craftingdeadsurvival:military_drop_radio",
+                   "id":  "craftingdeadsurvival:military_drop_radio"
+               }
+}

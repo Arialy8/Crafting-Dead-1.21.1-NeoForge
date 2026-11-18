@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:copper_ingot",
+      "id": "minecraft:copper_ingot"
+    },
+    {
+      "item": "minecraft:gunpowder",
+      "id": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:paper",
+      "id": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:clay_ball",
+      "id": "minecraft:clay_ball"
+    }
+  ],
+  "result": {
+    "item": "craftingdead:magnum_ammunition",
+    "id": "craftingdead:magnum_ammunition",
+    "count": 1
+  }
+}

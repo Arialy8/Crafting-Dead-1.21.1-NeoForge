@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["SSS", "SSS"],
+  "key": {
+    "S": { "type": "craftingdead:stacked", "item": "craftingdead:scrap_metal", "count": 64 }
+  },
+  "result": { "item": "craftingdead:track_s", "id": "craftingdead:track_s", "count": 1 }
+}

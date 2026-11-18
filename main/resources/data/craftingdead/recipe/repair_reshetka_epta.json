@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["SDS", " W "],
+  "key": {
+    "S": { "type": "craftingdead:stacked", "item": "craftingdead:scrap_metal", "count": 64 },
+    "D": { "item": "craftingdead:damaged_reshetka_epta", "id": "craftingdead:damaged_reshetka_epta" },
+    "W": { "item": "craftingdead:iron_wrench", "id": "craftingdead:iron_wrench" }
+  },
+  "result": { "item": "craftingdead:reshetka_epta", "id": "craftingdead:reshetka_epta", "count": 1 }
+}

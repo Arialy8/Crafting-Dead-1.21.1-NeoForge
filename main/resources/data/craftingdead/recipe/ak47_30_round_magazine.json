@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " I ",
+    "IGI",
+    " M "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot",
+      "id": "minecraft:iron_ingot"
+    },
+    "G": {
+      "item": "minecraft:gunpowder",
+      "id": "minecraft:gunpowder"
+    },
+    "M": {
+      "item": "minecraft:quartz",
+      "id": "minecraft:quartz"
+    }
+  },
+  "result": {
+    "item": "craftingdead:ak47_30_round_magazine",
+    "id": "craftingdead:ak47_30_round_magazine",
+    "count": 1
+  }
+}

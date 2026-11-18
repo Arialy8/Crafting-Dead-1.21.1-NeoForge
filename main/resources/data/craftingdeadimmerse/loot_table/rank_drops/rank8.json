@@ -1,0 +1,95 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {"type": "minecraft:item", "name": "craftingdead:bandage", "functions": [{"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 3, "max": 5}}]},
+        {"type": "minecraft:item", "name": "craftingdead:first_aid_kit", "functions": [{"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 2, "max": 3}}]},
+        {"type": "minecraft:item", "name": "craftingdead:adrenaline_syringe"},
+        {"type": "minecraft:item", "name": "craftingdeadsurvival:morphine_syringe"},
+        {"type": "minecraft:item", "name": "craftingdeadsurvival:splint"},
+        {"type": "minecraft:item", "name": "craftingdeadsurvival:cure_syringe", "weight": 1},
+        {"type": "minecraft:item", "name": "craftingdeadsurvival:rbi_syringe", "weight": 1}
+      ]
+    },
+    {
+      "rolls": 3,
+      "entries": [
+        {"type": "minecraft:item", "name": "craftingdeadsurvival:water_canteen"},
+        {"type": "minecraft:item", "name": "craftingdeadsurvival:mre"},
+        {"type": "minecraft:item", "name": "craftingdeadsurvival:power_bar"},
+        {"type": "minecraft:item", "name": "craftingdeadsurvival:candy_bar"},
+        {"type": "minecraft:item", "name": "craftingdeadsurvival:cereal"},
+        {"type": "minecraft:item", "name": "craftingdeadsurvival:rice_bag"},
+        {"type": "minecraft:item", "name": "craftingdeadsurvival:noodles"},
+        {"type": "minecraft:item", "name": "craftingdeadsurvival:open_canned_beans"},
+        {"type": "minecraft:item", "name": "craftingdeadsurvival:open_canned_corned_beef"},
+        {"type": "minecraft:item", "name": "craftingdeadsurvival:cola"},
+        {"type": "minecraft:item", "name": "craftingdeadsurvival:sprite"},
+        {"type": "minecraft:item", "name": "craftingdeadsurvival:milk_carton"}
+      ]
+    },
+    {
+      "rolls": {"type": "minecraft:uniform", "min": 2, "max": 3},
+      "entries": [
+        {"type": "minecraft:item", "name": "craftingdead:m4a1", "weight": 6},
+        {"type": "minecraft:item", "name": "craftingdead:ak47", "weight": 6},
+        {"type": "minecraft:item", "name": "craftingdead:mpt55", "weight": 3},
+        {"type": "minecraft:item", "name": "craftingdead:g36c", "weight": 3},
+        {"type": "minecraft:item", "name": "craftingdead:mp5a5", "weight": 4},
+        {"type": "minecraft:item", "name": "craftingdead:vector", "weight": 3},
+        {"type": "minecraft:item", "name": "craftingdead:p90", "weight": 3},
+        {"type": "minecraft:item", "name": "craftingdead:desert_eagle", "weight": 2},
+        {"type": "minecraft:item", "name": "craftingdead:magnum", "weight": 1},
+        {"type": "minecraft:item", "name": "craftingdead:m1911", "weight": 1},
+        {"type": "minecraft:item", "name": "craftingdead:g18", "weight": 1},
+        {"type": "minecraft:item", "name": "craftingdead:stanag_30_round_magazine", "weight": 4},
+        {"type": "minecraft:item", "name": "craftingdead:ak47_30_round_magazine", "weight": 4},
+        {"type": "minecraft:item", "name": "craftingdead:mpt55_magazine", "weight": 2},
+        {"type": "minecraft:item", "name": "craftingdead:g36c_magazine", "weight": 2},
+        {"type": "minecraft:item", "name": "craftingdead:mp5a5_35_round_magazine", "weight": 3},
+        {"type": "minecraft:item", "name": "craftingdead:vector_magazine", "weight": 2},
+        {"type": "minecraft:item", "name": "craftingdead:p90_magazine", "weight": 2},
+        {"type": "minecraft:item", "name": "craftingdead:desert_eagle_magazine", "weight": 2},
+        {"type": "minecraft:item", "name": "craftingdead:magnum_ammunition", "weight": 1}
+      ]
+    },
+    {
+      "rolls": {"type": "minecraft:uniform", "min": 3, "max": 4},
+      "entries": [
+        {"type": "minecraft:item", "name": "craftingdead:frag_grenade", "weight": 3},
+        {"type": "minecraft:item", "name": "craftingdead:smoke_grenade", "weight": 2},
+        {"type": "minecraft:item", "name": "craftingdead:flash_grenade", "weight": 2},
+        {"type": "minecraft:item", "name": "craftingdeadsurvival:pipe_bomb", "weight": 2},
+        {"type": "minecraft:item", "name": "craftingdead:parachute", "weight": 2},
+        {"type": "minecraft:item", "name": "craftingdead:army_clothing", "weight": 2},
+        {"type": "minecraft:item", "name": "craftingdead:army_medic_clothing", "weight": 2},
+        {"type": "minecraft:item", "name": "craftingdead:black_tactical_vest", "weight": 3},
+        {"type": "minecraft:item", "name": "craftingdead:tan_tactical_vest", "weight": 3},
+        {"type": "minecraft:item", "name": "craftingdead:army_helmet", "weight": 3},
+        {"type": "minecraft:item", "name": "craftingdead:green_army_helmet", "weight": 2},
+        {"type": "minecraft:item", "name": "craftingdead:red_dot_sight", "weight": 3},
+        {"type": "minecraft:item", "name": "craftingdead:eotech_sight", "weight": 1},
+        {"type": "minecraft:item", "name": "craftingdead:suppressor", "weight": 1},
+        {"type": "minecraft:item", "name": "craftingdead:fire_axe", "weight": 2},
+        {"type": "minecraft:item", "name": "craftingdead:machete", "weight": 2},
+        {"type": "minecraft:item", "name": "craftingdead:katana", "weight": 1},
+        {"type": "minecraft:item", "name": "craftingdead:sledgehammer", "weight": 1},
+        {"type": "minecraft:item", "name": "craftingdeadsurvival:multi_tool", "weight": 2},
+        {"type": "minecraft:item", "name": "craftingdeadimmerse:base_center_blueprint", "weight": 2},
+        {"type": "minecraft:item", "name": "craftingdeadimmerse:chest_blueprint", "weight": 2},
+        {"type": "minecraft:item", "name": "craftingdeadimmerse:campfire_blueprint", "weight": 2},
+        {"type": "minecraft:item", "name": "craftingdeadimmerse:blank_blueprint", "weight": 2},
+        {"type": "minecraft:item", "name": "craftingdeadimmerse:oak_plank_wall_blueprint", "weight": 1},
+        {"type": "minecraft:item", "name": "craftingdeadimmerse:stone_brick_wall_blueprint", "weight": 1},
+        {"type": "minecraft:item", "name": "craftingdeadimmerse:barbed_wire_wall_blueprint", "weight": 1}
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [{"condition": "minecraft:random_chance", "chance": 0.02}],
+      "entries": [{"type": "minecraft:item", "name": "craftingdead:minigun"}]
+    }
+  ]
+}

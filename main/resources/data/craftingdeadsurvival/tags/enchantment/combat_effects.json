@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "craftingdeadsurvival:infection",
+    "craftingdeadsurvival:burning",
+    "craftingdeadsurvival:explosive",
+    "craftingdeadsurvival:blinding",
+    "craftingdeadsurvival:slowing"
+  ]
+}

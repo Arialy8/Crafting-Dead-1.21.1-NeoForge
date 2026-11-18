@@ -1,0 +1,28 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "pattern":  [
+                    "rs ",
+                    "srs",
+                    " sr"
+                ],
+    "key":  {
+                "s":  {
+                          "item":  "minecraft:stick",
+                          "id":  "minecraft:stick"
+                      },
+                "r":  [
+                          {
+                              "item":  "craftingdead:clean_rag",
+                              "id":  "craftingdead:clean_rag"
+                          },
+                          {
+                              "item":  "craftingdead:dirty_rag",
+                              "id":  "craftingdead:dirty_rag"
+                          }
+                      ]
+            },
+    "result":  {
+                   "item":  "craftingdeadsurvival:splint",
+                   "id":  "craftingdeadsurvival:splint"
+               }
+}

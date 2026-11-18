@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["STS", "FEF", "SSS"],
+  "key": {
+    "S": { "type": "craftingdead:stacked", "item": "craftingdead:scrap_metal", "count": 64 },
+    "T": { "item": "craftingdead:t_72b3_turret", "id": "craftingdead:t_72b3_turret" },
+    "F": { "item": "craftingdead:diesel_can", "id": "craftingdead:diesel_can" },
+    "E": { "item": "craftingdead:enginevta", "id": "craftingdead:enginevta" }
+  },
+  "result": { "item": "craftingdead:t_72b3", "id": "craftingdead:t_72b3", "count": 1 }
+}

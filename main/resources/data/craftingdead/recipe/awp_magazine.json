@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " I ",
+    "IGI",
+    " M "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot",
+      "id": "minecraft:iron_ingot"
+    },
+    "G": {
+      "item": "minecraft:gunpowder",
+      "id": "minecraft:gunpowder"
+    },
+    "M": {
+      "item": "minecraft:iron_nugget",
+      "id": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "craftingdead:awp_magazine",
+    "id": "craftingdead:awp_magazine",
+    "count": 1
+  }
+}

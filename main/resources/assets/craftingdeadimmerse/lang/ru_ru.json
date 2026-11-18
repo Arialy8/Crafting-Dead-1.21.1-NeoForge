@@ -1,0 +1,111 @@
+{    
+    "commands.game.restart":"Перезагрузка игры",
+    "commands.game.reload_rotation":"Перезагрузка при смене игры",
+
+    "message.first_blood_drawn": "%s пролил первую кровь",
+    "message.joined": "%s вошёл в игру",
+    "message.left": "%s покинул игру",
+
+    "title.warm_up": "Разогрев",
+    "title.game_start": "Погнали!",
+    "title.game_over": "Игра окончена",
+
+    "message.game": "Игра",
+    "message.no_switch_team": "Ты не можешь сменить команды прямо сейчас",
+    "message.joined_team": "%s присоединился к %s",
+    "message.buy_time_expired": "Твоё время покупки истекло",
+
+    "key.switch_teams": "Switch Teams",
+
+    "gui.killed_message.killed_by": "Убит: %s",
+    "gui.killed_message.hp": "Здоровье: %s",
+
+    "gui.screen.shop.title": "Магазин",
+    "gui.screen.shop.back": "Назад '%s'",
+    "gui.screen.shop.buy_time": "Время покупки: %s",
+    "gui.screen.shop.selected": "Выбрано",
+    "gui.screen.shop.inventory":"Инвентарь",
+
+    "gui.screen.select_team.title":"Выбрать команду",
+    "gui.screen.select_team.join_red": "Присоединился к Красным",
+    "gui.screen.select_team.join_blue": "Присоединился к Синим",
+    "gui.screen.select_team.spectate": "Зритель",
+
+    "narrator.screen.start": "Начать",
+
+    "game.craftingdeadimmerse.tdm":"Командная смертельная схватка",
+
+    "gui.screen.start.message": "Нажми пробел, чтобы начать",
+
+    "menu.play_button": "Играть в игру",
+    "menu.home_button": "Домой",
+
+    "menu.home.title": "Домой",
+
+    "menu.play.title": "ИГРАТЬ",
+    "menu.play.dropdown.official": "ОФИЦИАЛЬНО",
+    "menu.play.dropdown.singleplayer": "ОДИНОЧНАЯ ИГРА",
+    "menu.play.dropdown.community": "СООБЩЕСТВО",
+    "menu.play.dropdown.custom": "СВОЁ",
+    "menu.play.tab.survival": "Выживание",
+    "menu.play.tab.tdm": "КСС",
+
+    "view.server_list.motd": "MOTD",
+    "view.server_list.map": "КАРТА",
+    "view.server_list.ping": "ПИНГ",
+    "view.server_list.players": "ИГРОКИ",
+    "view.server_list.failed_to_load": "?",
+    "view.server_list.button.play": "ИГРАТЬ",
+    "view.server_list.button.refresh": "ОБНОВИТЬ",
+    "view.server_list.button.quick_refresh": "БЫСТРОЕ ОБНОВЛЕНИЕ",
+    "view.mutable_server_list.button.add": "ДОБАВИТЬ",
+    "view.mutable_server_list.button.edit": "РЕДАКТИРОВАТЬ",
+    "view.mutable_server_list.button.remove": "УДАЛИТЬ",
+    "view.mutable_server_list.button.direct_connect": "ПРЯМОЕ ПОДКЛ.",
+
+    "view.world_list.button.play": "ИГРАТЬ",
+    "view.world_list.button.create": "СОЗДАТЬ",
+    "view.world_list.button.edit": "РЕДАКТИРОВАТЬ",
+    "view.world_list.button.delete": "УДАЛИТЬ",
+    "view.world_list.button.recreate": "ПЕРЕСОЗДАТЬ",
+
+    "gui.craftingdeadimmerse.hud.rank": "Звание",
+    "rank.craftingdeadimmerse.rank1": "Рядовой",
+    "rank.craftingdeadimmerse.rank2": "Ефрейтор",
+    "rank.craftingdeadimmerse.rank3": "Младший сержант",
+    "rank.craftingdeadimmerse.rank4": "Сержант",
+    "rank.craftingdeadimmerse.rank5": "Старший сержант",
+    "rank.craftingdeadimmerse.rank6": "Старшина",
+    "rank.craftingdeadimmerse.rank7": "Прапорщик",
+    "rank.craftingdeadimmerse.rank8": "Старший прапорщик",
+    "rank.craftingdeadimmerse.rank9": "Младший лейтенант",
+    "rank.craftingdeadimmerse.rank10": "Лейтенант",
+    "rank.craftingdeadimmerse.rank11": "Старший лейтенант",
+    "rank.craftingdeadimmerse.rank12": "Капитан",
+    "rank.craftingdeadimmerse.rank13": "Майор",
+    "rank.craftingdeadimmerse.rank14": "Подполковник",
+    "rank.craftingdeadimmerse.rank15": "Полковник",
+    "rank.craftingdeadimmerse.rank16": "Старший полковник",
+    "rank.craftingdeadimmerse.rank17": "Генерал-майор",
+    "rank.craftingdeadimmerse.rank18": "Генерал-лейтенант",
+    "rank.craftingdeadimmerse.rank19": "Генерал-полковник",
+
+    "command.craftingdeadimmerse.rank.self": "Твоё звание: %1$s | Очки: %2$s | До следующего звания: %3$s",
+    "command.craftingdeadimmerse.rank.self_max": "Твоё звание: %1$s | Очки: %2$s | Максимальное звание достигнуто",
+    "command.craftingdeadimmerse.rank.other": "Звание %1$s: %2$s | Очки: %3$s | До следующего звания: %4$s",
+    "command.craftingdeadimmerse.rank.other_max": "Звание %1$s: %2$s | Очки: %3$s | Максимальное звание достигнуто",
+    "command.craftingdeadimmerse.rank.top": "Таблица званий (топ %1$s)",
+    "command.craftingdeadimmerse.rank.top_entry": "#%1$s %2$s — %3$s (%4$s очков)",
+
+    "command.craftingdeadimmerse.rankdrop.summoned": "Ранговый авиасброс вызван — приземлится на X: %1$s / Z: %2$s!",
+    "command.craftingdeadimmerse.rankdrop.broadcast": "§6[Авиасброс] §e%1$s §7[%2$s] вызвал ранговый авиасброс! Координаты X: %3$s / Z: %4$s — успей забрать!",
+    "command.craftingdeadimmerse.rankdrop.broadcast_hidden": "§6[Авиасброс] §e%1$s §7[%2$s] вызвал ранговый авиасброс!",
+    "command.craftingdeadimmerse.rankdrop.self_coords": "§6Ваша цель сброса: X: %1$s / Z: %2$s",
+    "command.craftingdeadimmerse.rankdrop.no_uses_left": "Дневные попытки авиасброса исчерпаны.",
+    "command.craftingdeadimmerse.rankdrop.status": "Осталось авиасбросов сегодня: %1$s / %2$s",
+    "command.craftingdeadimmerse.rankdrop.disabled": "Система ранговых авиасбросов отключена.",
+    "command.craftingdeadimmerse.rankdrop.no_space": "Рядом нет безопасной зоны для сброса.",
+    "command.craftingdeadimmerse.rankdrop.requires_player": "Эту команду может выполнять только игрок.",
+    "command.craftingdeadimmerse.rankset.success": "Звание %1$s установлено на %2$s (уровень %3$s).",
+    "command.craftingdeadimmerse.rankset.invalid_level": "Неверный уровень. Введите число от 1 до 19."
+}

@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["III","BFR"," II"],"key":{"I":{"item":"minecraft:iron_ingot"},"B":{"item":"minecraft:bucket"},"F":{"item":"minecraft:flint_and_steel"},"R":{"item":"minecraft:redstone"}},"result":{"id":"craftingdead:flamethrower","count":1}}

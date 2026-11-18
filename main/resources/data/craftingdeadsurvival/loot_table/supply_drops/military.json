@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {"rolls": {"type": "minecraft:uniform", "min": 1, "max": 3}, "entries": [
+      {"type": "minecraft:item", "name": "craftingdead:m1911"}, {"type": "minecraft:item", "name": "craftingdead:g18"},
+      {"type": "minecraft:item", "name": "craftingdead:m9"}, {"type": "minecraft:item", "name": "craftingdead:p250"}
+    ]},
+    {"rolls": {"type": "minecraft:uniform", "min": 2, "max": 3}, "entries": [
+      {"type": "minecraft:item", "name": "craftingdead:ak47"}, {"type": "minecraft:item", "name": "craftingdead:m4a1"},
+      {"type": "minecraft:item", "name": "craftingdead:mpt55"}, {"type": "minecraft:item", "name": "craftingdead:mp5a5"}
+    ]},
+    {"rolls": {"type": "minecraft:uniform", "min": 6, "max": 9}, "entries": [
+      {"type": "minecraft:item", "name": "craftingdead:stanag_30_round_magazine"},
+      {"type": "minecraft:item", "name": "craftingdead:ak47_30_round_magazine"},
+      {"type": "minecraft:item", "name": "craftingdead:m9_magazine"},
+      {"type": "minecraft:item", "name": "craftingdead:g18_magazine"},
+      {"type": "minecraft:item", "name": "craftingdead:frag_grenade"},
+      {"type": "minecraft:item", "name": "craftingdead:army_clothing"},
+      {"type": "minecraft:item", "name": "craftingdead:acog_sight"},
+      {"type": "minecraft:item", "name": "craftingdead:suppressor"}
+    ]},
+    {"rolls": 1, "conditions": [{"condition": "minecraft:random_chance", "chance": 0.1}], "entries": [{"type": "minecraft:item", "name": "craftingdead:minigun"}]},
+    {"rolls": 1, "conditions": [{"condition": "minecraft:random_chance", "chance": 0.05}], "entries": [{"type": "minecraft:item", "name": "craftingdead:rpg"}]},
+    {"rolls":1,"conditions":[{"condition":"minecraft:random_chance","chance":0.30}],"entries":[{"type":"minecraft:item","name":"minecraft:enchanted_book","functions":[{"function":"minecraft:set_enchantments","enchantments":{"craftingdeadsurvival:infection":1}}]}]},
+    {"rolls":1,"conditions":[{"condition":"minecraft:random_chance","chance":0.30}],"entries":[{"type":"minecraft:item","name":"minecraft:enchanted_book","functions":[{"function":"minecraft:set_enchantments","enchantments":{"craftingdeadsurvival:burning":1}}]}]},
+    {"rolls":1,"conditions":[{"condition":"minecraft:random_chance","chance":0.30}],"entries":[{"type":"minecraft:item","name":"minecraft:enchanted_book","functions":[{"function":"minecraft:set_enchantments","enchantments":{"craftingdeadsurvival:explosive":1}}]}]},
+    {"rolls":1,"conditions":[{"condition":"minecraft:random_chance","chance":0.30}],"entries":[{"type":"minecraft:item","name":"minecraft:enchanted_book","functions":[{"function":"minecraft:set_enchantments","enchantments":{"craftingdeadsurvival:blinding":1}}]}]},
+    {"rolls":1,"conditions":[{"condition":"minecraft:random_chance","chance":0.30}],"entries":[{"type":"minecraft:item","name":"minecraft:enchanted_book","functions":[{"function":"minecraft:set_enchantments","enchantments":{"craftingdeadsurvival:slowing":1}}]}]}
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " I ",
+    "IGI",
+    " M "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot",
+      "id": "minecraft:iron_ingot"
+    },
+    "G": {
+      "item": "minecraft:gunpowder",
+      "id": "minecraft:gunpowder"
+    },
+    "M": {
+      "item": "minecraft:feather",
+      "id": "minecraft:feather"
+    }
+  },
+  "result": {
+    "item": "craftingdead:mac10_magazine",
+    "id": "craftingdead:mac10_magazine",
+    "count": 1
+  }
+}

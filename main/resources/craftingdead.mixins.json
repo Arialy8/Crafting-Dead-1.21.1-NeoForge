@@ -1,0 +1,32 @@
+{
+  "required": false,
+  "package": "com.craftingdead.core.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "refmap": "craftingdead.refmap.json",
+  "mixins": [
+    "AbstractContainerMenuMixin",
+    "EntityMixin",
+    "ItemEntityMixin",
+    "ExplosionMixin",
+    "LivingEntityMixin",
+    "MobAccessor",
+    "FriendlyByteBufMixin"
+  ],
+  "client": [
+    "CameraInvoker",
+    "TankCameraMixin",
+    "GameRendererMixin",
+    "LivingEntityRendererMixin",
+    "HumanoidModelMixin",
+    "ItemRendererMixin",
+    "ModelBakeryMixin",
+    "MouseHandlerMixin",
+    "KeyboardHandlerMixin",
+    "InventoryMixin",
+    "PlayerRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

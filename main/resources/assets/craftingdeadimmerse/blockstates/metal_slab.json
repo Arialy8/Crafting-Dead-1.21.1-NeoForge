@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "craftingdeadimmerse:block/metal_slab"
+    },
+    "type=double": {
+      "model": "craftingdeadimmerse:block/stone_block"
+    },
+    "type=top": {
+      "model": "craftingdeadimmerse:block/metal_slab_top"
+    }
+  }
+}

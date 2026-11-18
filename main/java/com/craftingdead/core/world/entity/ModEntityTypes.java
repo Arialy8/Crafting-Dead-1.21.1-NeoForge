@@ -1,0 +1,119 @@
+/*
+ * Crafting Dead
+ * Copyright (C) 2022  NexusNode LTD
+ *
+ * This Non-Commercial Software License Agreement (the "Agreement") is made between
+ * you (the "Licensee") and NEXUSNODE (BRAD HUNTER). (the "Licensor").
+ * By installing or otherwise using Crafting Dead (the "Software"), you agree to be
+ * bound by the terms and conditions of this Agreement as may be revised from time
+ * to time at Licensor's sole discretion.
+ *
+ * If you do not agree to the terms and conditions of this Agreement do not download,
+ * copy, reproduce or otherwise use any of the source code available online at any time.
+ *
+ * https://github.com/nexusnode/crafting-dead/blob/1.18.x/LICENSE.txt
+ *
+ * https://craftingdead.net/terms.php
+ */
+
+package com.craftingdead.core.world.entity;
+
+import com.craftingdead.core.CraftingDead;
+import com.craftingdead.core.world.entity.grenade.C4Explosive;
+import com.craftingdead.core.world.entity.grenade.DecoyGrenadeEntity;
+import com.craftingdead.core.world.entity.grenade.FireGrenadeEntity;
+import com.craftingdead.core.world.entity.grenade.FlashGrenadeEntity;
+import com.craftingdead.core.world.entity.grenade.FragGrenade;
+import com.craftingdead.core.world.entity.grenade.SmokeGrenadeEntity;
+import com.craftingdead.core.world.entity.projectile.RpgRocket;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.MobCategory;
+import net.neoforged.neoforge.registries.DeferredRegister;
+import net.minecraft.core.registries.Registries;
+import java.util.function.Supplier;
+
+public class ModEntityTypes {
+
+  public static final DeferredRegister<EntityType<?>> deferredRegister =
+      DeferredRegister.create(Registries.ENTITY_TYPE, CraftingDead.ID);
+
+  public static final Supplier<EntityType<C4Explosive>> C4_EXPLOSIVE =
+      deferredRegister.register("c4_explosive", () -> create("c4_explosive",
+          EntityType.Builder
+              .<C4Explosive>of(C4Explosive::new, MobCategory.MISC)
+              .clientTrackingRange(64)
+              .updateInterval(4)
+              .sized(0.65F, 0.25F)
+              .setShouldReceiveVelocityUpdates(false)));
+  public static final Supplier<EntityType<DecoyGrenadeEntity>> DECOY_GRENADE =
+      deferredRegister.register("decoy_grenade", () -> create("decoy_grenade",
+          EntityType.Builder
+              .<DecoyGrenadeEntity>of(DecoyGrenadeEntity::new, MobCategory.MISC)
+              .clientTrackingRange(64)
+              .updateInterval(4)
+              .sized(0.25F, 0.5F)
+              .setShouldReceiveVelocityUpdates(false)));
+
+  public static final Supplier<EntityType<FireGrenadeEntity>> FIRE_GRENADE =
+      deferredRegister.register("fire_grenade", () -> create("fire_grenade",
+          EntityType.Builder
+              .<FireGrenadeEntity>of(FireGrenadeEntity::new, MobCategory.MISC)
+              .clientTrackingRange(64)
+              .updateInterval(4)
+              .sized(0.25F, 0.5F)
+              .setShouldReceiveVelocityUpdates(false)));
+
+  public static final Supplier<EntityType<FlashGrenadeEntity>> FLASH_GRENADE =
+      deferredRegister.register("flash_grenade", () -> create("flash_grenade",
+          EntityType.Builder
+              .<FlashGrenadeEntity>of(FlashGrenadeEntity::new, MobCategory.MISC)
+              .clientTrackingRange(64)
+              .updateInterval(4)
+              .sized(0.25F, 0.5F)
+              .setShouldReceiveVelocityUpdates(false)));
+
+  public static final Supplier<EntityType<FragGrenade>> FRAG_GRENADE =
+      deferredRegister.register("frag_grenade", () -> create("frag_grenade",
+          EntityType.Builder
+              .<FragGrenade>of(FragGrenade::new, MobCategory.MISC)
+              .clientTrackingRange(64)
+              .updateInterval(4)
+              .sized(0.25F, 0.25F)
+              .setShouldReceiveVelocityUpdates(false)));
+
+  public static final Supplier<EntityType<SmokeGrenadeEntity>> SMOKE_GRENADE =
+      deferredRegister.register("smoke_grenade", () -> create("smoke_grenade",
+          EntityType.Builder
+              .<SmokeGrenadeEntity>of(SmokeGrenadeEntity::new, MobCategory.MISC)
+              .clientTrackingRange(64)
+              .updateInterval(4)
+              .sized(0.25F, 0.5F)
+              .setShouldReceiveVelocityUpdates(false)));
+
+  public static final Supplier<EntityType<RpgRocket>> RPG_ROCKET =
+      deferredRegister.register("rpg_rocket", () -> create("rpg_rocket",
+          EntityType.Builder.<RpgRocket>of(RpgRocket::new, MobCategory.MISC)
+              .clientTrackingRange(128)
+              .updateInterval(1)
+              .sized(0.35F, 0.35F)
+              .setShouldReceiveVelocityUpdates(true)));
+
+  public static final Supplier<EntityType<PlayerCorpse>> PLAYER_CORPSE =
+      deferredRegister.register("player_corpse", () -> create("player_corpse",
+          EntityType.Builder.<PlayerCorpse>of(PlayerCorpse::new, MobCategory.MISC)
+              .clientTrackingRange(64)
+              .updateInterval(10)
+              .sized(1.8F, 0.6F)
+              .setShouldReceiveVelocityUpdates(false)));
+
+
+  private static <T extends Entity> EntityType<T> create(String registryName,
+      EntityType.Builder<T> builder) {
+    // Centralized for 1.21.1: EntityType.Builder#build signatures differ between Forge and
+    // NeoForge mapping sets. Keeping all entity type construction here avoids touching every
+    // grenade/projectile registration when the final target loader mappings are selected.
+    return builder.build(ResourceLocation.fromNamespaceAndPath(CraftingDead.ID, registryName).toString());
+  }
+}

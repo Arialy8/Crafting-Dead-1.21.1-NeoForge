@@ -1,0 +1,703 @@
+﻿{
+    "credit":  "Crafting Dead RPG-7 loaded rocket model",
+    "texture_size":  [
+                         128,
+                         128
+                     ],
+    "textures":  {
+                     "particle":  "craftingdead:gun/rpg",
+                     "gun":  "craftingdead:gun/rpg"
+                 },
+    "elements":  [
+                     {
+                         "name":  "rocket_neck",
+                         "from":  [
+                                      6.3,
+                                      8.8,
+                                      -5.8947
+                                  ],
+                         "to":  [
+                                    9.7,
+                                    11.2,
+                                    -2.1053
+                                ],
+                         "faces":  {
+                                       "north":  {
+                                                     "uv":  [
+                                                                6,
+                                                                0,
+                                                                8,
+                                                                2
+                                                            ],
+                                                     "texture":  "#gun"
+                                                 },
+                                       "east":  {
+                                                    "uv":  [
+                                                               6,
+                                                               0,
+                                                               8,
+                                                               2
+                                                           ],
+                                                    "texture":  "#gun"
+                                                },
+                                       "south":  {
+                                                     "uv":  [
+                                                                6,
+                                                                0,
+                                                                8,
+                                                                2
+                                                            ],
+                                                     "texture":  "#gun"
+                                                 },
+                                       "west":  {
+                                                    "uv":  [
+                                                               6,
+                                                               0,
+                                                               8,
+                                                               2
+                                                           ],
+                                                    "texture":  "#gun"
+                                                },
+                                       "up":  {
+                                                  "uv":  [
+                                                             6,
+                                                             0,
+                                                             8,
+                                                             2
+                                                         ],
+                                                  "texture":  "#gun"
+                                              },
+                                       "down":  {
+                                                    "uv":  [
+                                                               6,
+                                                               0,
+                                                               8,
+                                                               2
+                                                           ],
+                                                    "texture":  "#gun"
+                                                }
+                                   }
+                     },
+                     {
+                         "name":  "warhead_rear",
+                         "from":  [
+                                      5,
+                                      7.5,
+                                      -8.4211
+                                  ],
+                         "to":  [
+                                    11,
+                                    12.5,
+                                    -5.2632
+                                ],
+                         "faces":  {
+                                       "north":  {
+                                                     "uv":  [
+                                                                6,
+                                                                0,
+                                                                8,
+                                                                2
+                                                            ],
+                                                     "texture":  "#gun"
+                                                 },
+                                       "east":  {
+                                                    "uv":  [
+                                                               6,
+                                                               0,
+                                                               8,
+                                                               2
+                                                           ],
+                                                    "texture":  "#gun"
+                                                },
+                                       "south":  {
+                                                     "uv":  [
+                                                                6,
+                                                                0,
+                                                                8,
+                                                                2
+                                                            ],
+                                                     "texture":  "#gun"
+                                                 },
+                                       "west":  {
+                                                    "uv":  [
+                                                               6,
+                                                               0,
+                                                               8,
+                                                               2
+                                                           ],
+                                                    "texture":  "#gun"
+                                                },
+                                       "up":  {
+                                                  "uv":  [
+                                                             6,
+                                                             0,
+                                                             8,
+                                                             2
+                                                         ],
+                                                  "texture":  "#gun"
+                                              },
+                                       "down":  {
+                                                    "uv":  [
+                                                               6,
+                                                               0,
+                                                               8,
+                                                               2
+                                                           ],
+                                                    "texture":  "#gun"
+                                                }
+                                   }
+                     },
+                     {
+                         "name":  "warhead_body",
+                         "from":  [
+                                      4.7,
+                                      7.2,
+                                      -10.3158
+                                  ],
+                         "to":  [
+                                    11.3,
+                                    12.8,
+                                    -8.1053
+                                ],
+                         "faces":  {
+                                       "north":  {
+                                                     "uv":  [
+                                                                8,
+                                                                0,
+                                                                10,
+                                                                2
+                                                            ],
+                                                     "texture":  "#gun"
+                                                 },
+                                       "east":  {
+                                                    "uv":  [
+                                                               8,
+                                                               0,
+                                                               10,
+                                                               2
+                                                           ],
+                                                    "texture":  "#gun"
+                                                },
+                                       "south":  {
+                                                     "uv":  [
+                                                                8,
+                                                                0,
+                                                                10,
+                                                                2
+                                                            ],
+                                                     "texture":  "#gun"
+                                                 },
+                                       "west":  {
+                                                    "uv":  [
+                                                               8,
+                                                               0,
+                                                               10,
+                                                               2
+                                                           ],
+                                                    "texture":  "#gun"
+                                                },
+                                       "up":  {
+                                                  "uv":  [
+                                                             8,
+                                                             0,
+                                                             10,
+                                                             2
+                                                         ],
+                                                  "texture":  "#gun"
+                                              },
+                                       "down":  {
+                                                    "uv":  [
+                                                               8,
+                                                               0,
+                                                               10,
+                                                               2
+                                                           ],
+                                                    "texture":  "#gun"
+                                                }
+                                   }
+                     },
+                     {
+                         "name":  "warhead_taper_1",
+                         "from":  [
+                                      5.2,
+                                      7.6,
+                                      -12.2105
+                                  ],
+                         "to":  [
+                                    10.8,
+                                    12.4,
+                                    -10
+                                ],
+                         "faces":  {
+                                       "north":  {
+                                                     "uv":  [
+                                                                6,
+                                                                0,
+                                                                8,
+                                                                2
+                                                            ],
+                                                     "texture":  "#gun"
+                                                 },
+                                       "east":  {
+                                                    "uv":  [
+                                                               6,
+                                                               0,
+                                                               8,
+                                                               2
+                                                           ],
+                                                    "texture":  "#gun"
+                                                },
+                                       "south":  {
+                                                     "uv":  [
+                                                                6,
+                                                                0,
+                                                                8,
+                                                                2
+                                                            ],
+                                                     "texture":  "#gun"
+                                                 },
+                                       "west":  {
+                                                    "uv":  [
+                                                               6,
+                                                               0,
+                                                               8,
+                                                               2
+                                                           ],
+                                                    "texture":  "#gun"
+                                                },
+                                       "up":  {
+                                                  "uv":  [
+                                                             6,
+                                                             0,
+                                                             8,
+                                                             2
+                                                         ],
+                                                  "texture":  "#gun"
+                                              },
+                                       "down":  {
+                                                    "uv":  [
+                                                               6,
+                                                               0,
+                                                               8,
+                                                               2
+                                                           ],
+                                                    "texture":  "#gun"
+                                                }
+                                   }
+                     },
+                     {
+                         "name":  "warhead_taper_2",
+                         "from":  [
+                                      5.8,
+                                      8.1,
+                                      -13.7895
+                                  ],
+                         "to":  [
+                                    10.2,
+                                    11.9,
+                                    -11.8947
+                                ],
+                         "faces":  {
+                                       "north":  {
+                                                     "uv":  [
+                                                                8,
+                                                                0,
+                                                                10,
+                                                                2
+                                                            ],
+                                                     "texture":  "#gun"
+                                                 },
+                                       "east":  {
+                                                    "uv":  [
+                                                               8,
+                                                               0,
+                                                               10,
+                                                               2
+                                                           ],
+                                                    "texture":  "#gun"
+                                                },
+                                       "south":  {
+                                                     "uv":  [
+                                                                8,
+                                                                0,
+                                                                10,
+                                                                2
+                                                            ],
+                                                     "texture":  "#gun"
+                                                 },
+                                       "west":  {
+                                                    "uv":  [
+                                                               8,
+                                                               0,
+                                                               10,
+                                                               2
+                                                           ],
+                                                    "texture":  "#gun"
+                                                },
+                                       "up":  {
+                                                  "uv":  [
+                                                             8,
+                                                             0,
+                                                             10,
+                                                             2
+                                                         ],
+                                                  "texture":  "#gun"
+                                              },
+                                       "down":  {
+                                                    "uv":  [
+                                                               8,
+                                                               0,
+                                                               10,
+                                                               2
+                                                           ],
+                                                    "texture":  "#gun"
+                                                }
+                                   }
+                     },
+                     {
+                         "name":  "warhead_taper_3",
+                         "from":  [
+                                      6.5,
+                                      8.7,
+                                      -15.0526
+                                  ],
+                         "to":  [
+                                    9.5,
+                                    11.3,
+                                    -13.4737
+                                ],
+                         "faces":  {
+                                       "north":  {
+                                                     "uv":  [
+                                                                6,
+                                                                0,
+                                                                8,
+                                                                2
+                                                            ],
+                                                     "texture":  "#gun"
+                                                 },
+                                       "east":  {
+                                                    "uv":  [
+                                                               6,
+                                                               0,
+                                                               8,
+                                                               2
+                                                           ],
+                                                    "texture":  "#gun"
+                                                },
+                                       "south":  {
+                                                     "uv":  [
+                                                                6,
+                                                                0,
+                                                                8,
+                                                                2
+                                                            ],
+                                                     "texture":  "#gun"
+                                                 },
+                                       "west":  {
+                                                    "uv":  [
+                                                               6,
+                                                               0,
+                                                               8,
+                                                               2
+                                                           ],
+                                                    "texture":  "#gun"
+                                                },
+                                       "up":  {
+                                                  "uv":  [
+                                                             6,
+                                                             0,
+                                                             8,
+                                                             2
+                                                         ],
+                                                  "texture":  "#gun"
+                                              },
+                                       "down":  {
+                                                    "uv":  [
+                                                               6,
+                                                               0,
+                                                               8,
+                                                               2
+                                                           ],
+                                                    "texture":  "#gun"
+                                                }
+                                   }
+                     },
+                     {
+                         "name":  "warhead_tip",
+                         "from":  [
+                                      7.3,
+                                      9.3,
+                                      -16
+                                  ],
+                         "to":  [
+                                    8.7,
+                                    10.7,
+                                    -14.7368
+                                ],
+                         "faces":  {
+                                       "north":  {
+                                                     "uv":  [
+                                                                12,
+                                                                0,
+                                                                14,
+                                                                2
+                                                            ],
+                                                     "texture":  "#gun"
+                                                 },
+                                       "east":  {
+                                                    "uv":  [
+                                                               12,
+                                                               0,
+                                                               14,
+                                                               2
+                                                           ],
+                                                    "texture":  "#gun"
+                                                },
+                                       "south":  {
+                                                     "uv":  [
+                                                                12,
+                                                                0,
+                                                                14,
+                                                                2
+                                                            ],
+                                                     "texture":  "#gun"
+                                                 },
+                                       "west":  {
+                                                    "uv":  [
+                                                               12,
+                                                               0,
+                                                               14,
+                                                               2
+                                                           ],
+                                                    "texture":  "#gun"
+                                                },
+                                       "up":  {
+                                                  "uv":  [
+                                                             12,
+                                                             0,
+                                                             14,
+                                                             2
+                                                         ],
+                                                  "texture":  "#gun"
+                                              },
+                                       "down":  {
+                                                    "uv":  [
+                                                               12,
+                                                               0,
+                                                               14,
+                                                               2
+                                                           ],
+                                                    "texture":  "#gun"
+                                                }
+                                   }
+                     },
+                     {
+                         "name":  "warhead_band",
+                         "from":  [
+                                      4.6,
+                                      7,
+                                      -9.0526
+                                  ],
+                         "to":  [
+                                    11.4,
+                                    13,
+                                    -7.7895
+                                ],
+                         "faces":  {
+                                       "north":  {
+                                                     "uv":  [
+                                                                2,
+                                                                0,
+                                                                4,
+                                                                2
+                                                            ],
+                                                     "texture":  "#gun"
+                                                 },
+                                       "east":  {
+                                                    "uv":  [
+                                                               2,
+                                                               0,
+                                                               4,
+                                                               2
+                                                           ],
+                                                    "texture":  "#gun"
+                                                },
+                                       "south":  {
+                                                     "uv":  [
+                                                                2,
+                                                                0,
+                                                                4,
+                                                                2
+                                                            ],
+                                                     "texture":  "#gun"
+                                                 },
+                                       "west":  {
+                                                    "uv":  [
+                                                               2,
+                                                               0,
+                                                               4,
+                                                               2
+                                                           ],
+                                                    "texture":  "#gun"
+                                                },
+                                       "up":  {
+                                                  "uv":  [
+                                                             2,
+                                                             0,
+                                                             4,
+                                                             2
+                                                         ],
+                                                  "texture":  "#gun"
+                                              },
+                                       "down":  {
+                                                    "uv":  [
+                                                               2,
+                                                               0,
+                                                               4,
+                                                               2
+                                                           ],
+                                                    "texture":  "#gun"
+                                                }
+                                   }
+                     },
+                     {
+                         "name":  "rocket_fin_left",
+                         "from":  [
+                                      3.5,
+                                      8,
+                                      -5.5789
+                                  ],
+                         "to":  [
+                                    6,
+                                    9.2,
+                                    -2.4211
+                                ],
+                         "faces":  {
+                                       "north":  {
+                                                     "uv":  [
+                                                                6,
+                                                                0,
+                                                                8,
+                                                                2
+                                                            ],
+                                                     "texture":  "#gun"
+                                                 },
+                                       "east":  {
+                                                    "uv":  [
+                                                               6,
+                                                               0,
+                                                               8,
+                                                               2
+                                                           ],
+                                                    "texture":  "#gun"
+                                                },
+                                       "south":  {
+                                                     "uv":  [
+                                                                6,
+                                                                0,
+                                                                8,
+                                                                2
+                                                            ],
+                                                     "texture":  "#gun"
+                                                 },
+                                       "west":  {
+                                                    "uv":  [
+                                                               6,
+                                                               0,
+                                                               8,
+                                                               2
+                                                           ],
+                                                    "texture":  "#gun"
+                                                },
+                                       "up":  {
+                                                  "uv":  [
+                                                             6,
+                                                             0,
+                                                             8,
+                                                             2
+                                                         ],
+                                                  "texture":  "#gun"
+                                              },
+                                       "down":  {
+                                                    "uv":  [
+                                                               6,
+                                                               0,
+                                                               8,
+                                                               2
+                                                           ],
+                                                    "texture":  "#gun"
+                                                }
+                                   }
+                     },
+                     {
+                         "name":  "rocket_fin_right",
+                         "from":  [
+                                      10,
+                                      10.8,
+                                      -5.5789
+                                  ],
+                         "to":  [
+                                    12.5,
+                                    12,
+                                    -2.4211
+                                ],
+                         "faces":  {
+                                       "north":  {
+                                                     "uv":  [
+                                                                6,
+                                                                0,
+                                                                8,
+                                                                2
+                                                            ],
+                                                     "texture":  "#gun"
+                                                 },
+                                       "east":  {
+                                                    "uv":  [
+                                                               6,
+                                                               0,
+                                                               8,
+                                                               2
+                                                           ],
+                                                    "texture":  "#gun"
+                                                },
+                                       "south":  {
+                                                     "uv":  [
+                                                                6,
+                                                                0,
+                                                                8,
+                                                                2
+                                                            ],
+                                                     "texture":  "#gun"
+                                                 },
+                                       "west":  {
+                                                    "uv":  [
+                                                               6,
+                                                               0,
+                                                               8,
+                                                               2
+                                                           ],
+                                                    "texture":  "#gun"
+                                                },
+                                       "up":  {
+                                                  "uv":  [
+                                                             6,
+                                                             0,
+                                                             8,
+                                                             2
+                                                         ],
+                                                  "texture":  "#gun"
+                                              },
+                                       "down":  {
+                                                    "uv":  [
+                                                               6,
+                                                               0,
+                                                               8,
+                                                               2
+                                                           ],
+                                                    "texture":  "#gun"
+                                                }
+                                   }
+                     }
+                 ]
+}

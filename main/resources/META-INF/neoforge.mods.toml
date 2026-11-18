@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="GPL v3.0"
+issueTrackerURL="https://github.com/nexusnode/crafting-dead/issues"
+
+[[mixins]]
+config="craftingdead.mixins.json"
+
+[[mods]]
+modId="craftingdead"
+version="${file.jarVersion}"
+displayName="Crafting Dead"
+logoFile="logo.png"
+displayURL="https://www.craftingdead.com"
+authors="Sm0keySa1m0n, Arzio"
+credits="Sm0keySa1m0n, Arzio, F3RULLO14"
+description="""The Minecraft zombie survival mod.
+非官方移植1.21.1版本  移植作者：Amechan Auroraur
+处于测试版本中，如在游玩过程中发现任何问题请联系：muc3337@gmail.com Amechankawaii6@outlook.com
+测试服群聊：947796302 64443035"""
+
+[[dependencies.craftingdead]]
+modId="neoforge"
+mandatory=true
+versionRange="[21.1,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.craftingdead]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.21.1,1.22)"
+ordering="NONE"
+side="BOTH"
